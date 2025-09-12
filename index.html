@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vladislave01 | Full-Stack разработчик</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">vladislave01<span>.</span></a>
+                <nav>
+                    <ul>
+                        <li><a href="#about" data-i18n="nav.about">Обо мне</a></li>
+                        <li><a href="#skills" data-i18n="nav.skills">Навыки</a></li>
+                        <li><a href="#projects" data-i18n="nav.projects">Проекты</a></li>
+                        <li><a href="#experience" data-i18n="nav.experience">Опыт</a></li>
+                        <li>
+                            <button id="language-toggle" class="language-toggle" aria-label="Switch language">
+                                <span class="language-text">EN</span>
+                                <div class="language-icon">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-bg-animation">
+            <div class="bg-circle"></div>
+            <div class="bg-circle"></div>
+            <div class="bg-circle"></div>
+            <div class="bg-circle"></div>
+            <div class="bg-circle"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge" data-aos="fade-down" data-i18n="hero.badge">Full-Stack разработчик</div>
+                <h1 class="hero-title" data-aos="fade-right" data-i18n="hero.title">Создаю цифровые <span class="text-gradient">впечатления</span> с помощью чистого кода</h1>
+                <p class="hero-subtitle" data-aos="fade-right" data-aos-delay="100" data-i18n="hero.subtitle">Я разрабатываю и создаю высококачественные веб-сайты и приложения, ориентированные на производительность и пользовательский опыт.</p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="200">
+                    <a href="#projects" class="btn btn-primary" data-i18n="hero.btnProjects">Посмотреть проекты</a>
+                    <a href="#about" class="btn btn-secondary" data-i18n="hero.btnContact">Связаться</a>
+                </div>
+                <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="300">
+                    <span data-i18n="hero.scroll">Листайте вниз</span>
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up" data-i18n="about.title">Обо мне</h2>
+            <div class="about-content" data-aos="fade-up" data-aos-delay="100">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="contact-label">
+                            <h4 data-i18n="footer.contact">Связаться</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <img src="profile-img.jpg" alt="Владислав" class="profile-img">
+                        <div class="image-overlay">
+                            <div class="social-links">
+                                <a href="https://github.com/vladislave011/"><i class="fab fa-github"></i></a>
+                                <a href="https://www.instagram.com/vladislave01/"><i class="fab fa-instagram"></i></a>
+                                <a href="https://t.me/vladislave011"><i class="fab fa-telegram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p data-i18n="about.text1">Привет! Я vladislave01, начинающий full-stack разработчик из Казахстана.</p>
+                    <p data-i18n="about.text2">Так же, как и моя страсть к горам — где каждое восхождение является испытанием, которое вознаграждает меня захватывающими видами — я рассматриваю программирование как путешествие постоянного обучения и открытий. Каждый проект — это новая вершина, которую нужно покорить, приближая меня к становлению более сильным и уверенным разработчиком.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number" data-count="5">0</div>
+                            <div class="stat-label" data-i18n="about.projects">Завершенных проектов</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-count="5">0</div>
+                            <div class="stat-label" data-i18n="about.clients">Довольных клиентов</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-count="1">0</div>
+                            <div class="stat-label" data-i18n="about.experience">Год опыта</div>
+                        </div>
+                    </div>
+                    <div class="about-actions">
+                        <a href="#" class="btn btn-primary" data-i18n="about.downloadCV"><i class="fas fa-download"></i> Скачать резюме</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up" data-i18n="skills.title">Мои навыки</h2>
+            <div class="skills-tabs" data-aos="fade-up" data-aos-delay="100">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="frontend" data-i18n="skills.frontend">Фронтенд</button>
+                    <button class="tab-btn" data-tab="backend" data-i18n="skills.backend">Бэкенд</button>
+                    <button class="tab-btn" data-tab="tools" data-i18n="skills.tools">Инструменты</button>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="frontend">
+                        <div class="skills-grid">
+                            <div class="skill-item"><div class="skill-info"><div class="skill-name">HTML/CSS</div><div class="skill-percentage">35%</div></div><div class="skill-bar"><div class="skill-progress" data-width="35%"></div></div></div>
+                            <div class="skill-item"><div class="skill-info"><div class="skill-name">JavaScript</div><div class="skill-percentage">20%</div></div><div class="skill-bar"><div class="skill-progress" data-width="20%"></div></div></div>
+                            <div class="skill-item"><div class="skill-info"><div class="skill-name">React</div><div class="skill-percentage">5%</div></div><div class="skill-bar"><div class="skill-progress" data-width="5%"></div></div></div>
+                            <div class="skill-item"><div class="skill-info"><div class="skill-name">Vue.js</div><div class="skill-percentage">5%</div></div><div class="skill-bar"><div class="skill-progress" data-width="5%"></div></div></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="backend">
+                        <div class="skills-grid">
+                            <div class="skill-item"><div class="skill-info"><div class="skill-name">Node.js</div><div class="skill-percentage">15%</div></div><div class="skill-bar"><div class="skill-progress" data-width="15%"></div></div></div>
+                            <div class="skill-item"><div class="skill-info"><div class="skill-name">Python</div><div class="skill-percentage">35%</div></div><div class="skill-bar"><div class="skill-progress" data-width="35%"></div></div></div>
+                            <div class="skill-item"><div class="skill-info"><div class="skill-name">PHP</div><div class="skill-percentage">35%</div></div><div class="skill-bar"><div class="skill-progress" data-width="35%"></div></div></div>
+                            <div class="skill-item"><div class="skill-info"><div class="skill-name">Databases</div><div class="skill-percentage">32%</div></div><div class="skill-bar"><div class="skill-progress" data-width="32%"></div></div></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tools">
+                        <div class="skills-grid">
+                            <div class="skill-item"><div class="skill-info"><div class="skill-name">Git</div><div class="skill-percentage">40%</div></div><div class="skill-bar"><div class="skill-progress" data-width="40%"></div></div></div>
+                            <div class="skill-item"><div class="skill-info"><div class="skill-name">Docker</div><div class="skill-percentage">5%</div></div><div class="skill-bar"><div class="skill-progress" data-width="5%"></div></div></div>
+                            <div class="skill-item"><div class="skill-info"><div class="skill-name">Webpack</div><div class="skill-percentage">5%</div></div><div class="skill-bar"><div class="skill-progress" data-width="5%"></div></div></div>
+                            <div class="skill-item"><div class="skill-info"><div class="skill-name">AWS</div><div class="skill-percentage">5%</div></div><div class="skill-bar"><div class="skill-progress" data-width="5%"></div></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up" data-i18n="projects.title">Мои проекты</h2>
+            <div class="projects-filter" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all" data-i18n="projects.all">Все</button>
+                <button class="filter-btn" data-filter="frontend" data-i18n="projects.frontend">Фронтенд</button>
+                <button class="filter-btn" data-filter="backend" data-i18n="projects.backend">Бэкенд</button>
+                <button class="filter-btn" data-filter="fullstack" data-i18n="projects.fullstack">Фуллстек</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="fullstack" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <img src="project-img.jpg" alt="LynorShop">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-i18n="projects.ecommerce">LynorShop</h3>
+                        <p class="project-desc" data-i18n="projects.ecommerceDesc">Полнофункциональный интернет-магазин кроссовок с управлением товарами, корзиной и функцией оформления заказа.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Php, MySQL</span>
+                            <span class="tech-tag">HTML, CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up" data-i18n="experience.title">Опыт работы</h2>
+            <div class="timeline" data-aos="fade-up" data-aos-delay="100">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025 - <span data-i18n="experience.current">Настоящее время</span></div>
+                        <h3 class="timeline-title" data-i18n="experience.fullstack">Начинающий Full-Stack разработчик</h3>
+                        <h4 class="timeline-company">TechInnovations Corp.</h4>
+                        <p class="timeline-desc" data-i18n="experience.fullstackDesc">Создал несколько Full-Stack проектов</p>
+                        <ul class="timeline-list">
+                            <li data-i18n="experience.fullstack1">В этих проектах я использовал JavaScript,PHP,MySQL,CSS,HTML, так же была работа с backend делал вход через гугл,оформление покупки кроссовок и т.п</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024</div>
+                        <h3 class="timeline-title" data-i18n="experience.frontend">Практика 3 мес в IT-Компании</h3>
+                        <p class="timeline-desc" data-i18n="experience.frontendDesc">Обучался IntelIje IDE а именно фреймворку JMIX</p>
+                        <ul class="timeline-list">
+                            <li data-i18n="experience.frontend1">Создал несколько проектов на Jmix, такие как и корпаративные и сайты, так же использовал вход через Google a2th</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <footer>  
+    <div class="container">
+        <div class="footer-content">
+
+            <div class="footer-logo">
+                <a href="#" class="logo">vladislave01<span>.</span></a>
+            </div>
+            
+            <div class="footer-gif">
+                <img src="animation.gif" alt="Анимация">
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4 data-i18n="footer.navigation">Навигация</h4>
+                    <ul>
+                        <li><a href="#about" data-i18n="nav.about">Обо мне</a></li>
+                        <li><a href="#skills" data-i18n="nav.skills">Навыки</a></li>
+                        <li><a href="#projects" data-i18n="nav.projects">Проекты</a></li>
+                        <li><a href="#experience" data-i18n="nav.experience">Опыт</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 data-i18n="footer.contact">Связаться</h4>
+                    <ul class="footer-social">
+                        <li><a href="https://t.me/vladislave011" target="_blank"><i class="fab fa-telegram"></i> Telegram</a></li>
+                        <li><a href="https://instagram.com/vladislave011" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="https://github.com/vladislave011" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div> <div class="footer-bottom">
+       <p class="footer-text" data-i18n="footer.copyright"></p>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
