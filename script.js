@@ -63,6 +63,10 @@ const translations = {
         'experience.frontend': '3-month internship at IT Company',
         'experience.frontendDesc': 'Learned IntelIj IDE and Jmix framework',
         'experience.frontend1': 'Created several Jmix projects including corporate websites with Google authentication',
+        'experience.frontend2': 'Learning server applications and databases',
+        'experience.frontendDesc2': 'Studying Proxmox, MySQL, PostgreSQL',
+        'experience.frontend3': 'Studying Proxmox, MySQL and PostgreSQL. In Proxmox, virtual machines were created and configured, one of which was connected to a custom domain and hosted a website with HTTPS support and data encryption. MySQL was used for integration with training projects, including data storage and processing. PostgreSQL was applied for working with more complex data structures and testing application functionality, which provided experience in administration and optimization of different DBMS.',
+
         
         // Footer
         'footer.navigation': 'Navigation',
@@ -88,7 +92,7 @@ const translations = {
         'about.title': 'Обо мне',
         'about.text1': "Привет! Я vladislave01, начинающий full-stack разработчик из Казахстана.",
         'about.text2': "Так же, как и моя страсть к горам — где каждое восхождение является испытанием, которое вознаграждает меня захватывающими видами — я рассматриваю программирование как путешествие постоянного обучения и открытий. Каждый проект — это новая вершина, которую нужно покорить, приближая меня к становлению более сильным и уверенным разработчиком.",
-        'about.projects': 'Завершенных проектов',
+        'about.projects': 'Завершенных практических проектов',
         'about.clients': 'Довольных клиентов',
         'about.experience': 'Год опыта',
         'about.downloadCV': 'Скачать резюме',
@@ -117,6 +121,9 @@ const translations = {
         'experience.frontend': 'Практика 3 мес в IT-Компании',
         'experience.frontendDesc': 'Обучался IntelIje IDE а именно фреймворку JMIX',
         'experience.frontend1': 'Создал несколько проектов на Jmix, такие как и корпаративные и сайты, так же использовал вход через Google a2th',
+        'experience.frontend2': 'Обучение серверных приложений и баз данных',
+        'experience.frontendDesc2': 'Изучение Proxmox,MySQL,PostgresSQL',
+        'experience.frontend3': 'Изучение Proxmox, MySQL и PostgreSQL. В Proxmox было выполнено создание и настройка виртуальных машин, на одной из которых подключен собственный домен и развернут сайт с поддержкой HTTPS и шифрованием данных. MySQL использовалась для подключения и интеграции с учебными проектами, включая хранение и обработку данных. PostgreSQL применялась для работы с более сложными структурами данных и тестирования функционала приложений, что позволило получить опыт администрирования и оптимизации разных СУБД.',
         
         // Footer
         'footer.navigation': 'Навигация',
